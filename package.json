@@ -1,5 +1,5 @@
 {
-  "name": "vite-reactts-eslint-prettier",
+  "name": "todo-list",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -11,10 +11,17 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "antd": "^5.16.5",
+    "dexie": "^4.0.4",
+    "immer": "^10.1.1",
+    "nanoid": "^5.0.7",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.23.0",
+    "use-immer": "^0.9.0"
   },
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
@@ -30,7 +37,12 @@
     "pre-commit": "^1.2.2",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5",
-    "vite": "^2.9.12"
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^2.9.12",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-plugin-windicss": "^1.9.3",
+    "vite-svg-loader": "^5.1.0",
+    "windicss": "^3.5.6"
   },
   "pre-commit": "lint",
   "license": "MIT"
